@@ -1,0 +1,40 @@
+.home {
+  height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  background-image: url(../assets/bg.jpg);
+  opacity: 0.9;
+}
+
+.home input {
+  font-size: 1.2rem;
+  width: 340px;
+  padding: 16px 10px;
+  border-radius: 4px 0 0 4px;
+  box-shadow: 6px 10px 8px rgba(0, 0, 0, 0.3),
+    -10px -10px 8px rgba(0, 0, 0, 0.3);
+}
+
+.home input,
+input:focus {
+  border: 0 !important;
+  outline: none !important;
+}
+
+.home form .btn {
+  padding: 16px 16px;
+  border: 0;
+  box-shadow: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 6px 10px 8px rgba(0, 0, 0, 0.3);
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
