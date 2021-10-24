@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #f2f2f2;
-  height: 14vh;
+  background: transparent;
+  height: 12vh;
   padding: 1rem 2rem;
 }
 
@@ -18,4 +18,10 @@
 .header-links a.active {
   color: #000;
   border-bottom: 2px solid #000;
+}
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: space-between;
+  }
 }

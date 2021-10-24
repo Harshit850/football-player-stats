@@ -3,8 +3,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  background-image: url('./components/assets/bg.jpg');
+}
+
+.btn {
+  padding: 16px 16px;
+  border: 0;
+  box-shadow: none;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 0 4px 4px 0;
+  box-shadow: 6px 10px 8px rgba(0, 0, 0, 0.3);
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-success {
+  border-radius: 10px;
+  background-color: rgb(30, 196, 30);
+  box-shadow: none;
+  font-size: 1.2rem;
+}
+
+span {
+  color: #222;
+  font-weight: 600;
 }

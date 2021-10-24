@@ -6,7 +6,11 @@ const Home = () => {
   return (
     <div className='home'>
       <form action=''>
-        <input type='text' autoFocus />
+        <input
+          type='text'
+          autoFocus
+          placeholder='Enter name, nationality, club to search'
+        />
         <button type='submit' className='btn'>
           Search
         </button>
