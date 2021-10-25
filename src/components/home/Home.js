@@ -9,11 +9,11 @@ const Home = () => {
         <input
           type='text'
           autoFocus
-          placeholder='Enter name, nationality, club to search'
+          placeholder='Enter name, nationality or club to search...'
         />
-        <button type='submit' className='btn'>
+        <a href='/player-stats' type='submit' className='btn'>
           Search
-        </button>
+        </a>
       </form>
     </div>
   );

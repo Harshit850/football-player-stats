@@ -13,7 +13,7 @@ const App = () => {
         <Route path='/' exact>
           <Home />
         </Route>
-        <Route path='/player-about' exact>
+        <Route path='/player-stats' exact>
           <About />
         </Route>
       </Switch>
