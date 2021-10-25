@@ -13,7 +13,7 @@ const Header = () => {
         <a href='/' className='active'>
           Home
         </a>
-        <a href='/player-stats'>Help?</a>
+        <a href='/help'>Help?</a>
       </div>
     </div>
   );

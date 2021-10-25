@@ -2,18 +2,24 @@ import React from 'react';
 
 import './Home.css';
 
-const Home = () => {
+const Home = ({ setData, handleStats }) => {
+  const submitHandler = (e) => {
+    e.preventDefault();
+    handleStats();
+  };
   return (
     <div className='home'>
-      <form action=''>
+      <form onSubmit={(e) => submitHandler(e)}>
         <input
           type='text'
           autoFocus
+          required
           placeholder='Enter name, nationality or club to search...'
+          onChange={(e) => setData(e.target.value)}
         />
-        <a href='/player-stats' type='submit' className='btn'>
+        <button type='submit' className='btn'>
           Search
-        </a>
+        </button>
       </form>
     </div>
   );

@@ -2,7 +2,8 @@ import React from 'react';
 
 import './About.css';
 
-const About = () => {
+const About = ({ data }) => {
+  console.log(`Search Parameter: ${data}`);
   return (
     <div id='main'>
       <h1>Player Name</h1>
