@@ -18,8 +18,10 @@ const App = () => {
       <Header />
       <Switch>
         <Route path='/' exact>
-          {!showStats && <Home setData={setData} handleStats={handleStats} />}
-          {showStats && <About data={data} />}
+          {!showStats && (
+            <Home data={data} setData={setData} handleStats={handleStats} />
+          )}
+          {showStats && <About data={data} handleStats={handleStats} />}
         </Route>
         <Route path='/help' exact></Route>
       </Switch>

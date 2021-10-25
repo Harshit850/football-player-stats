@@ -2,48 +2,67 @@ import React from 'react';
 
 import './About.css';
 
-const About = ({ data }) => {
-  console.log(`Search Parameter: ${data}`);
+const About = ({ data, handleStats }) => {
+  if (data === null) {
+    return (
+      <div className='container'>
+        <h1>Nothing Found!</h1>
+        <button className='btn btn-info mt-2' onClick={handleStats}>
+          Search Again?
+        </button>
+      </div>
+    );
+  }
+
   return (
     <div id='main'>
-      <h1>Player Name</h1>
+      <h1>{data.name}</h1>
       <div className='player-div'>
         <div className='player-img'></div>
         <div className='player-info'>
           <div className='player-btns'>
-            <button className='btn btn-success'>Overall : 67</button>
-            <button className='btn btn-success'>Potential: 67</button>
+            <button className='btn btn-success'>Value : {data.value}</button>
+            <button className='btn btn-success'>Wage: {data.wage}</button>
           </div>
           <div className='player-stats'>
             <h4>
-              Age: <span>43</span>
+              Age: <span>{data.age}</span>
             </h4>
             <h4>
-              Height: <span>6'4 - 1.95m</span>
+              Height: <span>{data.height}</span>
             </h4>
             <h4>
-              Weight: <span>6'4lbs - 1.95lbs</span>
+              Weight: <span>{data.weight}</span>
             </h4>
             <h4>
-              Preferred Foot: <span>Right</span>
+              Club: <span>{data.club}</span>
             </h4>
             <h4>
-              Position: <span>RDM</span>
+              Crossing: <span>{data.crossing}</span>
             </h4>
             <h4>
-              Jersey Number: <span>87</span>
+              Short Passing: <span>{data.short_passing}</span>
             </h4>
             <h4>
-              Weak Foot: <span>4 stars</span>
+              Preferred Foot: <span>{data.preferred_foot}</span>
             </h4>
             <h4>
-              Skills Move: <span>5 stars</span>
+              Position: <span>{data.position}</span>
             </h4>
             <h4>
-              Work Rate(Attack - Defense): <span>High / Low</span>
+              Jersey Number: <span>{data.jersey_number}</span>
             </h4>
             <h4>
-              International Reputation: <span>5 stars</span>
+              Joined: <span>{data.joined}</span>
+            </h4>
+            <h4>
+              Wrok Rate: <span>{data.work_rate}</span>
+            </h4>
+            <h4>
+              Heading Accuracy: <span>{data.heading_accuracy}</span>
+            </h4>
+            <h4>
+              Contract Valid Till <span>{data.contract_valid}</span>
             </h4>
           </div>
         </div>

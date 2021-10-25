@@ -1,4 +1,4 @@
-const data = [
+const playerData = [
   {
     name: 'L. Messi',
     age: 31,
@@ -34,7 +34,7 @@ const data = [
     position: 'ST',
     jersey_number: 7,
     joined: '10-Jul-18',
-    'Contract Valid Until': 2022,
+    contract_valid: 2022,
     height: "6'2",
     weight: '183lbs',
     crossing: 84,
@@ -56,7 +56,7 @@ const data = [
     position: 'LW',
     jersey_number: 10,
     joined: '3-Aug-17',
-    'Contract Valid Until': 2022,
+    contract_valid: 2022,
     height: "5'9",
     weight: '150lbs',
     crossing: 79,
@@ -78,7 +78,7 @@ const data = [
     position: 'GK',
     jersey_number: 1,
     joined: '1-Jul-11',
-    'Contract Valid Until': 2020,
+    contract_valid: 2020,
     height: "6'4",
     weight: '168lbs',
     crossing: 17,
@@ -100,7 +100,7 @@ const data = [
     position: 'RCM',
     jersey_number: 7,
     joined: '30-Aug-15',
-    'Contract Valid Until': 2023,
+    contract_valid: 2023,
     height: "5'11",
     weight: '154lbs',
     crossing: 93,
@@ -110,3 +110,5 @@ const data = [
     volleys: 82,
   },
 ];
+
+export default playerData;

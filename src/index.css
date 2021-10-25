@@ -25,6 +25,7 @@ body {
   background-color: #000;
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .btn-success {
@@ -35,7 +36,27 @@ body {
   padding: 10px 10px;
 }
 
+.btn-info {
+  border-radius: 4px;
+  background-color: rgb(30, 196, 160);
+  box-shadow: none;
+  font-size: 1rem;
+  padding: 10px 10px;
+}
+
 span {
   color: #222;
   font-weight: 600;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.mt-2 {
+  margin-top: 1rem;
 }
