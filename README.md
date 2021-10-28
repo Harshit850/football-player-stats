@@ -5,7 +5,8 @@
 This site simplt filter out player according to the search query then display the stats of the filtered player. No database is being used in this project all of the data fetching is done through a data.js file. Visit here for more info :- https://football-player-stats.netlify.app/
 
 ## Home Page
-![Home Page](https://ibb.co/j6vjBx6)
+<a href="https://ibb.co/j6vjBx6"><img src="https://i.ibb.co/3ryPG8r/one.jpg" alt="one" border="0"></a>
+<a href="https://ibb.co/xSnQrdM"><img src="https://i.ibb.co/FbQtdCB/rwo.jpg" alt="rwo" border="0"></a>
 
 
 
