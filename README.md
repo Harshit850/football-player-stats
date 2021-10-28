@@ -1,8 +1,8 @@
-# About the Project
+# About the Project 
 
 ## Football Player Stats(Frontend Task)
 
-This site simplt filter out player according to the search query then display the stats of the filtered player. No database is being used in this project all of the data fetching is done through a data.js file.
+This site simplt filter out player according to the search query then display the stats of the filtered player. No database is being used in this project all of the data fetching is done through a data.js file. Visit here for more info :- https://football-player-stats.netlify.app/
 
 ## Home Page
 <img src="https://drive.google.com/file/d/1MEZLy85M5Ha5gO7XluF0ZB7dQZt9T76E/view?usp=sharing" alt="todo1" border="0">
